@@ -1,0 +1,15 @@
+.course-comment__wrapper {
+    width: 1000px;
+    margin: 30px auto;
+}
+
+@media (min-device-width:1600px) {
+    .course-comment__wrapper {
+        width: 1200px;
+    }
+}
+
+.course-comment__wrapper .title {
+    font-size: 30px;
+    font-weight: bold;
+}

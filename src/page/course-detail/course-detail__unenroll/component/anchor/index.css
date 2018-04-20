@@ -1,0 +1,34 @@
+.anchor {
+    position: fixed;
+    left: 5%;
+    top: 50%;
+    transform: translateY(-25%);
+}
+
+.anchor>ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #dedede;
+}
+
+.anchor>ul>li {
+    height: 70px;
+    width: 300px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+    color: rgba(0, 0, 0, 0.55);
+}
+
+.anchor>ul>li:hover {
+    background: #fefefe;
+    cursor: pointer;
+}
+
+.anchor>ul>li>a {
+    width: 100%;
+    color: rgba(0, 0, 0, 0.55);
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 25px;
+}

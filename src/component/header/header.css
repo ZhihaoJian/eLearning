@@ -1,0 +1,27 @@
+.layout-container .header {
+    background: #fff;
+    height: 84px;
+}
+
+.layout-container .header .header-menu {
+    line-height: 84px;
+    height: 84px;
+}
+
+.layout-container .header .logo {
+    float: left;
+    line-height: 84px;
+}
+
+.layout-container .header .logo a {
+    text-decoration: none;
+}
+
+.layout-container .header .logo>h1 {
+    margin: 0;
+}
+
+.layout-container .header .header-menu .ant-menu-item {
+    font-size: 20px;
+    float: right;
+}

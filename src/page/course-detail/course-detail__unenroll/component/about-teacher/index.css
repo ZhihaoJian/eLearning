@@ -1,0 +1,50 @@
+.about-teacher__wrapper {
+    width: 1000px;
+    margin: 30px auto;
+}
+
+@media (min-device-width:1600px) {
+    .about-teacher__wrapper {
+        width: 1200px;
+    }
+}
+
+.about-teacher__wrapper .title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.about-teacher__wrapper .about-teacher__content {
+    overflow: hidden;
+    display: flex;
+}
+
+.about-teacher__wrapper .about-teacher__content .teacher-info {
+    float: left;
+}
+
+.about-teacher__wrapper .about-teacher__content .teacher-info .teacher-info__detail {
+    height: 50px;
+    margin-top: 10px;
+}
+
+.about-teacher__wrapper .about-teacher__content .teacher-info .teacher-info__detail i {
+    font-size: 20px;
+}
+
+.about-teacher__wrapper .about-teacher__content .teacher-info .teacher-info__detail span {
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.about-teacher__wrapper .about-teacher__content .teacher-experience__introduce {
+    padding-left: 30px;
+}
+
+.about-teacher__wrapper .about-teacher__content .teacher-experience__introduce .teacher-experience__name {
+    font-size: 30px;
+}
+
+.about-teacher__wrapper .about-teacher__content .teacher-experience__introduce .teacher-experience__experience {
+    font-size: 25px;
+}

@@ -1,0 +1,51 @@
+ .course-comment__block {
+     display: flex;
+     height: 350px;
+     border-bottom: 1px solid #dedfe0;
+ }
+
+ .course-comment__block .left {
+     display: flex;
+ }
+
+ .course-comment__block .left>div {
+     display: flex;
+     width: 200px;
+     justify-content: center;
+     align-self: center;
+ }
+
+ .course-comment__block .left .ant-avatar {
+     margin: auto 0;
+ }
+
+ .course-comment__block .left .comment-user-info {
+     padding-left: 15px;
+ }
+
+ .course-comment__block .left .comment-user-info div {
+     font-size: 20px;
+ }
+
+ .course-comment__block .right {
+     margin-left: 50px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+
+ .course-comment__block .right .course-rating .ant-rate {
+     font-size: 30px;
+ }
+
+ .course-comment__block .right .course-comment {
+     font-size: 21px;
+ }
+
+ .course-comment__block .right .is-useful-comment {
+     margin-top: 30px;
+ }
+
+ .course-comment__block .right .is-useful-comment .ant-btn {
+     margin: 0 20px;
+ }

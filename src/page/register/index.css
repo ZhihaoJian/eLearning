@@ -1,0 +1,15 @@
+.register-form {
+    margin-top: 50px;
+}
+
+.register-form .ant-form-item-label label {
+    font-size: 25px;
+}
+
+.register-form .ant-form-item-control-wrapper input {
+    height: 50px;
+}
+
+.register-form .ant-btn {
+    height: 50px;
+}

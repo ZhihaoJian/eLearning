@@ -1,0 +1,42 @@
+.course-video-list__wrapper {
+    width: 1000px;
+    margin: 30px auto;
+}
+
+@media (min-device-width:1600px) {
+    .course-video-list__wrapper {
+        width: 1200px;
+    }
+}
+
+.course-video-list__wrapper .course-video__title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.course-video-list__wrapper .ant-collapse .ant-collapse-header {
+    font-size: 30px;
+}
+
+.course-video-list__wrapper .ant-collapse .ant-collapse-content-box {
+    padding: 0;
+}
+
+.course-video-list__wrapper .ant-collapse .ant-collapse-content-box div {
+    font-size: 25px;
+    height: 70px;
+    border-bottom: 1px solid #ccc;
+    padding-left: 20px;
+}
+
+.course-video-list__wrapper .ant-collapse .ant-collapse-content-box div .video-time {
+    float: right;
+    line-height: 70px;
+    padding-right: 15px;
+}
+
+.course-video-list__wrapper .ant-collapse .ant-collapse-content-box div a {
+    line-height: 70px;
+    padding-left: 15px;
+    color: #505763;
+}

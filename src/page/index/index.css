@@ -1,0 +1,100 @@
+.index-page .ant-carousel {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.index-page .ant-carousel .slick-slide {
+    text-align: center;
+    overflow: hidden;
+}
+
+.index-page .ant-carousel .slick-slide h3 {
+    color: #fff;
+}
+
+.index-page .ant-carousel .slick-slide img {
+    width: 100%;
+}
+
+.index-page .notice-streamer {
+    height: 600px;
+    background-image: url('https://udemy-images.udemy.com/notices/home_banner/image/434d1033-6c9e-4f70-b699-7fae05ded152.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+@media (min-device-width:1400px) {
+    .index-page .notice-streamer {
+        height: 800px;
+    }
+}
+
+.index-page .notice-streamer .search {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+}
+
+.index-page .notice-streamer .search .notice-streamer__headline {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.index-page .notice-streamer .search .search-input {
+    width: 400px;
+    height: 80px;
+}
+
+@media (min-device-width:1400px){
+    .index-page .notice-streamer .search .search-input {
+        width: 600px;
+        height: 80px;
+    }   
+}
+
+
+.index-page .notice-streamer .search .ant-input-suffix,
+.index-page .notice-streamer .search .ant-input {
+    font-size: 25px;
+}
+
+.index-page .new-channel {
+    height: 100px;
+    background: linear-gradient(-45deg, #ec5252, #6e1a52);
+}
+
+.index-page .new-channel .how-elearning-work {
+    height: 100%;
+    display: flex;
+}
+
+.index-page .new-channel .how-elearning-work .how-elearning-work__col {
+    width: calc(100%/3);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.index-page .new-channel .how-elearning-work .how-elearning-work__col img {
+    width: 70px;
+    height: 100%;
+    line-height: 100px;
+    color: #fff;
+}
+
+.index-page .new-channel .how-elearning-work .how-elearning-work__text {
+    display: flex;
+    margin-left: 20px;
+    align-self: center;
+}
+
+.index-page .new-channel .how-elearning-work .how-elearning-work__text b {
+    color: #fff;
+    font-size: 25px;
+}
+
+.index-page .new-course-list {
+    margin-top: 16px;
+}
