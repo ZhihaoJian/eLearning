@@ -1,0 +1,15 @@
+.sectionHOC__wrapper {
+    width: 1000px;
+    margin: 30px auto;
+}
+
+@media (min-width:1600px) {
+    .sectionHOC__wrapper {
+        width: 1200px;
+    }
+}
+
+.sectionHOC__wrapper > div > p {
+    font-size: 30px;
+    font-weight: bold;
+}

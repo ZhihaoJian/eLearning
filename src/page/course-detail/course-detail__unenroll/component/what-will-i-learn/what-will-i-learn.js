@@ -1,8 +1,10 @@
 import React from 'react';
 import { Card } from 'antd';
+import SectionHOC from 'HOC/sectionHOC/sectionHOC';
 // import PropTypes from 'prop-types';
 import './index.css';
 
+@SectionHOC
 class WhatWillILearn extends React.Component{
     render(){
         return(

@@ -1,8 +1,9 @@
 import React from 'react';
 import {Rate} from 'antd';
 import {Link} from 'react-router-dom';
-import CourseBanner from '../../../../../high-order-component/course-banner/course-banner';
+import CourseBanner from 'HOC/course-banner/course-banner';
 
+@CourseBanner
 class Banner extends React.Component{
     render(){
         return(
@@ -25,4 +26,4 @@ class Banner extends React.Component{
     }
 }
 
-export default Banner = CourseBanner(Banner);
+export default Banner;

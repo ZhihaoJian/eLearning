@@ -2,7 +2,9 @@ import React from 'react';
 import CourseComment from './course-comment/course-comment';
 import {Button} from 'antd';
 import './index.css';
+import SectionHOC from 'HOC/sectionHOC/sectionHOC';
 
+@SectionHOC
 class CourseCommentContainer extends React.Component{
     render(){
         return(

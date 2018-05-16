@@ -6,7 +6,25 @@
 }
 
 .course-enroll__wrapper .course-thumb img {
-    height: 26vh;
+    height: 16vh;
+}
+
+@media (max-width:1600px) {
+    .course-enroll__wrapper .course-thumb img {
+        height: 20vh;
+    }
+}
+
+@media (min-width:1600px) {
+    .course-enroll__wrapper .course-thumb img {
+        height: 25vw;
+    }
+}
+
+@media (min-width:1920px) {
+    .course-enroll__wrapper .course-thumb img {
+        height: 30vh;
+    }
 }
 
 .course-enroll__wrapper .course-info {
@@ -20,14 +38,20 @@
     margin-bottom: 50px;
 }
 
-@media (min-device-width:1400px) {
-    .course-enroll__wrapper .course-info .course-title {
-        font-size: 40px;
-    }
-}
-
 .course-enroll__wrapper .course-info button {
     height: 5vh;
     font-weight: bold;
     font-size: 25px;
+}
+
+@media (min-width:1600px) {
+    .course-enroll__wrapper .course-info .course-title {
+        font-size: 35px;
+        margin-bottom: 25px;
+    }
+    .course-enroll__wrapper .course-info button {
+        height: 4vw;
+        font-weight: bold;
+        font-size: 25px;
+    }
 }

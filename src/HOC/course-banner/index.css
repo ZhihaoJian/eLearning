@@ -1,8 +1,14 @@
 .course-banner {
     width: 100%;
-    height: 30vh;
+    height: 20vw;
     background-color: #505763;
     position: relative;
+}
+
+@media (min-width:1600px) {
+    .course-banner {
+        height: 30vw;
+    }
 }
 
 .course-banner .course-banner__wrapper {

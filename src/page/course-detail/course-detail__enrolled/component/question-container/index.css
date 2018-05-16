@@ -1,0 +1,43 @@
+.load-more {
+    display: flex;
+    justify-content: center;
+}
+
+.load-more button {
+    height: 60px;
+}
+
+.question__search_box_card .search-input {
+    width: 75%;
+    height: 50px;
+}
+
+.question__search_box_card .ant-card-body {
+    height: 100px;
+}
+
+.question__search_box_card span {
+    margin: 0 15px;
+}
+
+@media (min-device-width:1600px) {
+    .question__search_box_card span {
+        margin: 0 30px;
+    }
+}
+
+.question__search_box_card .ask-question {
+    height: 100%;
+}
+
+.editable__wrapper .opera-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.editable__wrapper .opera-btn button {
+    width: 100px;
+    height: 50px;
+    margin-right: 15px;
+}

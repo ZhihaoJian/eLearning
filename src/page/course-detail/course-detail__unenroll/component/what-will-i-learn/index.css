@@ -1,16 +1,3 @@
-.what-will-i-learn__wrapper {
-    background: #f9f9f9;
-    border: 1px solid #dedfe0;
-    width: 1000px;
-    margin: 30px auto;
-}
-
-@media (min-device-width:1600px) {
-    .what-will-i-learn__wrapper {
-        width: 1200px;
-    }
-}
-
 .what-will-i-learn__wrapper .ant-card-head-title {
     font-size: 30px;
     font-weight: bold;

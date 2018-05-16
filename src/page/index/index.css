@@ -24,7 +24,7 @@
     position: relative;
 }
 
-@media (min-device-width:1400px) {
+@media (min-width:1601px) {
     .index-page .notice-streamer {
         height: 800px;
     }
@@ -47,7 +47,7 @@
     height: 80px;
 }
 
-@media (min-device-width:1400px){
+@media (min-width:1400px){
     .index-page .notice-streamer .search .search-input {
         width: 600px;
         height: 80px;

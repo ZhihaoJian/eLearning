@@ -1,0 +1,59 @@
+.course-card {
+    width: 100%;
+    background-color: #fefefe;
+    box-shadow: 5px 5px 5px #dedede;
+    transition: .3s ease-in-out;
+    margin-top: 20px;
+}
+
+.course-card:hover {
+    cursor: pointer;
+    box-shadow: 15px 15px 15px #dedede;
+}
+
+.course-card .video-card__title {
+    padding: 12px;
+}
+
+.course-card .video-card__title .course-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-card .video-card__course_list {
+    transition: all 1s ease-out;
+}
+
+.course-card .video-card__course_list .video-section span,
+.course-card .video-card__title .course-info span {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.course-card .video-card__title .course-title {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.course-card .video-card__course_list .video-section {
+    height: 80px;
+    background: #fefefe;
+    padding: 12px;
+    border-top: 1px solid #ccc;
+}
+
+.course-card .video-card__course_list .video-section:hover {
+    background: #f2f3f5;
+}
+
+.course-card .video-card__course_list .video-section,
+.course-card .video-card__course_list .video-section .left,
+.course-card .video-card__course_list .video-section .right {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.course-card .video-card__course_list .video-section span.mr {
+    margin-right: 10px;
+}

@@ -10,18 +10,20 @@
 
 .layout-container .header .logo {
     float: left;
+    width: 350px;
+    height: 84px;
     line-height: 84px;
+    background-image: url('../../logo/logo.png');
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: 250px;
 }
 
-.layout-container .header .logo a {
-    text-decoration: none;
+.layout-container .header .logo:hover {
+    cursor: pointer;
 }
 
-.layout-container .header .logo>h1 {
-    margin: 0;
-}
-
-.layout-container .header .header-menu .ant-menu-item {
+.layout-container .header .header-menu li {
     font-size: 20px;
     float: right;
 }

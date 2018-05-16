@@ -23,7 +23,7 @@ class Register extends React.Component {
     }
 
     componentDidMount() {
-        document.title = 'Regster - eLearning';
+        document.title = 'Register - eLearning';
     }
 
     handleSubmit = (e) => {

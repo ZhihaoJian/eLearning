@@ -1,8 +1,15 @@
 import React from 'react';
-import CourseBanner from '../../../../../high-order-component/course-banner/course-banner';
+import CourseBanner from 'HOC/course-banner/course-banner';
+import {withRouter} from 'react-router-dom';
 import {Button} from 'antd';
 
+@withRouter
 class Banner extends React.Component{
+
+    handleContinueLect(){
+        this.props.history.push('/course-detail/video/1');
+    }
+
     render(){
         return(
             <div className='course-enroll__wrapper' >
@@ -13,7 +20,7 @@ class Banner extends React.Component{
                     <div className='course-title'>
                         The Complete Node.js Developer Course (2nd Edition)
                     </div>
-                        <Button size='large' type='danger' >继续 讲座1</Button>
+                        <Button size='large' type='danger' onClick={this.handleContinueLect.bind(this)} >Continue Lecture 1</Button>
                 </div>
             </div>
         )

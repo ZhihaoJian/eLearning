@@ -1,12 +1,14 @@
 import React from 'react';
 import { Avatar, Icon } from 'antd';
 import { Link } from 'react-router-dom';
+import SectionHOC from 'HOC/sectionHOC/sectionHOC';
 import './index.css'
 
+@SectionHOC
 class AboutTeacher extends React.Component {
     render() {
         return (
-            <div className='about-teacher__wrapper' id='about-teacher'>
+            <div className='about-teacher' id='about-teacher'>
                 <p className='title' >About Teacher</p>
                 <div className='about-teacher__content' >
                     <div className='teacher-info' >

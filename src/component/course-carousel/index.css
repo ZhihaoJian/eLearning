@@ -2,12 +2,13 @@
 
 .index-page .new-course-list .new-course-list__wrapper {
     position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
 }
 
 .index-page .new-course-list .new-course__type {
     position: relative;
-    left: 50%;
-    margin-left: -25%;
 }
 
 .index-page .new-course-list .new-course__type p {
@@ -21,23 +22,21 @@
     position: relative;
     display: block;
     margin: 30px 0;
-    left: 50%;
-    margin-left: -25%;
 }
 
-@media (max-device-width:1400px) {
+@media (max-width:1400px) {
     .index-page .new-course-list .course-slider {
         width: 1280px;
     }
 }
 
-@media (min-device-width:1400px) {
+@media (min-width:1400px) {
     .index-page .new-course-list .course-slider {
         width: 1280px;
     }
 }
 
-@media (min-device-width:1920px) {
+@media (min-width:1920px) {
     .index-page .new-course-list .course-slider {
         width: 1590px;
     }

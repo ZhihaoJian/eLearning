@@ -1,0 +1,75 @@
+.announcement-card {
+    background: #fefefe;
+    padding: 12px;
+    box-shadow: 5px 5px 5px #dedede;
+    transition: all .4s ease-in-out;
+    margin-top: 15px;
+}
+
+.announcement-card:hover {
+    box-shadow: 10px 10px 10px #dedede;
+    cursor: pointer;
+}
+
+.announcement-card .announcement-card__timestamp {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.announcement-card .announcement-card__timestamp .avatar {
+    display: flex;
+    align-self: center;
+}
+
+.announcement-card .announcement-card__timestamp .time-info {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-left: 20px;
+}
+
+.announcement-card .announcement-card__body .announcement-card__title {
+    font-size: 30px;
+}
+
+.announcement-card .announcement-card__body .announcement-card__content {
+    font-size: 20px;
+}
+
+.announcement-card .my-comment__wrapper {
+    display: flex;
+    margin-top: 30px;
+}
+
+.announcement-card .my-comment__wrapper .my-avatar {
+    display: flex;
+    align-self: center;
+    margin-right: 20px;
+}
+
+.announcement-card .user-comment__wrapper {
+    margin-top: 20px;
+    display: none;
+}
+
+.announcement-card .user-comment__wrapper.visible {
+    display: block;
+}
+
+.announcement-card .user-comment__wrapper .user-comment {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.announcement-card .user-comment__wrapper .user-avatar {
+    align-self: center;
+}
+
+.announcement-card .user-comment__wrapper .user-ask__info {
+    margin-left: 20px;
+}
+
+.announcement-card .user-comment__wrapper .user-ask__info>p {
+    margin: 0;
+    font-size: 20px;
+}

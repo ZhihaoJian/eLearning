@@ -1,8 +1,10 @@
 import React from 'react';
 import './index.css';
+import SectionHOC from 'HOC/sectionHOC/sectionHOC';
 // import PropTypes from 'prop-types';
 
 //课程前置知识
+@SectionHOC
 class CoursePreRequire extends React.Component{
     render(){
         return(
